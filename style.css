@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Comic Sans MS, Arial, sans-serif;
+}
+
+body {
+  background-color: #fff3c4;
+  color: #222;
+  min-height: 100vh;
+}
+
+.topic-section {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px;
+  border: 2px solid #000000;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 16px;
+  border: 2px solid #000000;
+  background-color: #ffdd57;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#appContent {
+  display: none;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.topic-title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  width: 220px;
+  margin-bottom: 0;
+}
+
+.list-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list {
+  width: 100%;
+  max-width: 300px;
+  background-color: #ffffff;
+  border: 3px dashed #000000;
+  padding: 15px;
+}
+
+.list h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: #e0f7fa;
+  border: 2px solid #000000;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #ff6b6b;
+  border: 2px solid #000000;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.scoreboard {
+  margin: 25px auto 0;
+  max-width: 420px;
+  border: 3px solid #000000;
+  background-color: #d1ffd6;
+  padding: 14px;
+  text-align: center;
+  font-size: 15px;
+}
+
+li span {
+  margin-right: 8px;
+  word-break: break-word;
+}
+
+.opnieuw {
+  text-align: center;
+  margin-top: 20px;
+}

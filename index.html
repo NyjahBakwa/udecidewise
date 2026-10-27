@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UDecideWise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="topic-section" id="topicSection">
+      <h1>Wat is het onderwerp van je beslissing?</h1>
+      <input
+        type="text"
+        id="topicInput"
+        placeholder="Bijvoorbeeld: Moet ik React leren?"
+      />
+      <button onclick="submitTopic()">Start</button>
+    </div>
+
+    <div id="appContent">
+      <h2 class="topic-title" id="topicTitle"></h2>
+      <div class="input-section">
+        <input type="text" id="itemInput" placeholder="Typ een punt" />
+        <button onclick="addItem('pros')">+ Voordeel</button>
+        <button onclick="addItem('cons')">- Nadeel</button>
+      </div>
+      <div class="list-container">
+        <div class="list">
+          <h2>Voordelen</h2>
+          <ul id="prosList"></ul>
+        </div>
+        <div class="list">
+          <h2>Nadelen</h2>
+          <ul id="consList"></ul>
+        </div>
+      </div>
+      <div class="scoreboard" id="scoreboard">
+        Voordelen: 0 | Nadelen: 0<br />
+        Laten we beslissen!
+      </div>
+      <p class="opnieuw">
+        <button onclick="startOver()">Nieuwe beslissing</button>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
